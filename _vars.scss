@@ -1,0 +1,66 @@
+$primary-color: #45403D;
+$secondary-color: #A26539;
+$header-color: #FFFFFF;
+$background-color: #F6F5F4;
+$number-color: #F7F7F7;
+$font-family: "Montserrat Alternates", sans-serif;
+
+$font-size-very-small: 16px;
+$font-size-medium: 24px;
+$font-size-big: 30px;
+$font-size-xbig: 32px;
+$mob-font-large: 40px;
+$font-size-xlarge: 48px;
+$font-size-xxlarge: 64px;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$line-height-very-small: 17px;
+$line-height-small: 19px;
+$line-height-medium: 32px;
+$line-height-big: 39px;
+$line-height-large: 48px;
+$line-height-xlarge: 58px;
+$line-height-xxlarge: 78px;
+
+@mixin button-style {
+    box-sizing: border-box;
+    font: inherit;
+    width: 247px;
+    height: 66px;
+    border-radius: 60px;
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-semibold;
+    cursor: pointer;
+    border: 1px solid $primary-color;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    &:hover{
+        background-color: $secondary-color;
+        color: $primary-color;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+}
+@mixin mob-button-style {
+    box-sizing: border-box;
+    font: inherit;
+    width: 285px;
+    height: 55px;
+    border-radius: 60px;
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-size: $font-size-very-small;
+    font-weight: $font-weight-semibold;
+    cursor: pointer;
+    border: 1px solid $primary-color;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    &:hover{
+        background-color: $secondary-color;
+        color: $primary-color;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+}
