@@ -22,3 +22,9 @@ html {
 body {
     font-family: $font-family;
 }
+
+.header{
+    &__button{
+        @include button-style;
+    }
+}

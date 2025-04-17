@@ -19,4 +19,24 @@ html {
 
 body {
   font-family: "Montserrat Alternates", sans-serif;
+}
+
+.header__button {
+  box-sizing: border-box;
+  font: inherit;
+  width: 169px;
+  height: 52px;
+  border-radius: 24px;
+  background-color: #F6F5F4;
+  color: #A26539;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #A26539;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.header__button:hover {
+  background-color: #A26539;
+  color: #F6F5F4;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=style.css.map */
