@@ -15,16 +15,110 @@ html {
 }
 
 .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+    max-width: 1200px;
+    margin: 0 auto;
+    //padding: 0 20px;
 }
 
 body {
     font-family: $font-family;
+    color: $primary-color;
 }
 
-.header{
-    &__button{
+.header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $header-color;
+}
+
+.links-box {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    font-size: $font-size-very-small;
+    font-weight: $font-weight-semibold;
+
+    &__button {
         @include button-style;
     }
 }
+
+.main {
+    background-color: $background-color;
+}
+
+.landpage {
+    height: 770px;
+    position: relative;
+
+    &__button {
+        @include button-style;
+        width: 366px;
+        margin-top: 40px;
+    }
+
+    &__imges {
+        &_table {
+            position: absolute;
+            right: -120px;
+            top: 0;
+        }
+
+        &_coffee {
+            position: absolute;
+            right: 126px;
+            top: 0;
+        }
+
+        &_cookie {
+            position: absolute;
+            right: 266px;
+            top: 369px;
+        }
+
+        &_cinnnamon {
+            position: absolute;
+            right: -120px;
+            top: 200px;
+        }
+
+        &_beans {
+            position: absolute;
+            right: -19px;
+            top: 58px;
+        }
+    }
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 118px;
+
+    &__title {
+        width: 570px;
+        font-size: $font-size-xlarge;
+        font-weight: $font-weight-bold;
+
+        &_quote {
+            font-weight: $font-weight-regular;
+        }
+    }
+
+    &__subtitle {
+        width: 498px;
+        font-size: $font-size-medium;
+        font-weight: $font-weight-semibold;
+    }
+
+    &__text {
+        width: 498px;
+        font-size: $font-size-very-small;
+        font-weight: $font-weight-regular;
+    }
+}
+
+.top-images {}

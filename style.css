@@ -13,15 +13,31 @@ html {
 }
 
 .center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 body {
   font-family: "Montserrat Alternates", sans-serif;
+  color: #45403D;
 }
 
-.header__button {
+.header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+}
+
+.links-box {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.links-box__button {
   box-sizing: border-box;
   font: inherit;
   width: 169px;
@@ -35,8 +51,88 @@ body {
   border: 1px solid #A26539;
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
-.header__button:hover {
+.links-box__button:hover {
   background-color: #A26539;
   color: #F6F5F4;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.main {
+  background-color: #F6F5F4;
+}
+
+.landpage {
+  height: 770px;
+  position: relative;
+}
+.landpage__button {
+  box-sizing: border-box;
+  font: inherit;
+  width: 169px;
+  height: 52px;
+  border-radius: 24px;
+  background-color: #F6F5F4;
+  color: #A26539;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #A26539;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  width: 366px;
+  margin-top: 40px;
+}
+.landpage__button:hover {
+  background-color: #A26539;
+  color: #F6F5F4;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.landpage__imges_table {
+  position: absolute;
+  right: -120px;
+  top: 0;
+}
+.landpage__imges_coffee {
+  position: absolute;
+  right: 126px;
+  top: 0;
+}
+.landpage__imges_cookie {
+  position: absolute;
+  right: 266px;
+  top: 369px;
+}
+.landpage__imges_cinnnamon {
+  position: absolute;
+  right: -120px;
+  top: 200px;
+}
+.landpage__imges_beans {
+  position: absolute;
+  right: -19px;
+  top: 58px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 118px;
+}
+.title__title {
+  width: 570px;
+  font-size: 48px;
+  font-weight: 700;
+}
+.title__title_quote {
+  font-weight: 400;
+}
+.title__subtitle {
+  width: 498px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.title__text {
+  width: 498px;
+  font-size: 16px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
