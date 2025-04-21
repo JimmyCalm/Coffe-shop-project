@@ -64,30 +64,35 @@ body {
       position: absolute;
       right: -120px;
       top: 0;
+      filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
     }
 
     &_coffee {
       position: absolute;
       right: 126px;
       top: 0;
+      filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
     }
 
     &_cookie {
       position: absolute;
       right: 266px;
       top: 369px;
+      filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
     }
 
     &_cinnnamon {
       position: absolute;
       right: -120px;
       top: 200px;
+      filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
     }
 
     &_beans {
       position: absolute;
       right: -19px;
       top: 58px;
+      filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
     }
   }
 }
@@ -141,6 +146,7 @@ body {
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
     gap: 20px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
   }
 
   &__image {
@@ -206,6 +212,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
   }
 
   &__img {
@@ -266,6 +273,7 @@ body {
     flex-direction: column;
     max-width: 379px;
     max-height: 208px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
   }
 
   &__info {
@@ -328,6 +336,7 @@ body {
     background: #f9f9f9;
     padding: 20px;
     border-radius: 24px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
   }
 
   &__subtitle {
@@ -357,6 +366,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
   }
 
   &__form-input {
@@ -377,6 +387,7 @@ body {
     min-height: 514px;
     border-radius: 24px;
     overflow: hidden;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 
     script {
       width: 100%;

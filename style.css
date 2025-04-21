@@ -90,26 +90,31 @@ body {
   position: absolute;
   right: -120px;
   top: 0;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 .landpage__imges_coffee {
   position: absolute;
   right: 126px;
   top: 0;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 .landpage__imges_cookie {
   position: absolute;
   right: 266px;
   top: 369px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 .landpage__imges_cinnnamon {
   position: absolute;
   right: -120px;
   top: 200px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 .landpage__imges_beans {
   position: absolute;
   right: -19px;
   top: 58px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 
 .title {
@@ -157,6 +162,7 @@ body {
   border-top-right-radius: 24px;
   border-bottom-right-radius: 24px;
   gap: 20px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 .info__image {
   border-top-left-radius: 24px;
@@ -229,6 +235,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 .menu__img {
   width: 100%;
@@ -282,6 +289,7 @@ body {
   flex-direction: column;
   max-width: 379px;
   max-height: 208px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 .reviews__info {
   display: flex;
@@ -334,6 +342,7 @@ body {
   background: #f9f9f9;
   padding: 20px;
   border-radius: 24px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 .contacts__subtitle {
   font-size: 24px;
@@ -359,6 +368,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 .contacts__form-input {
   padding: 12px 16px;
@@ -392,6 +402,7 @@ body {
   min-height: 514px;
   border-radius: 24px;
   overflow: hidden;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
 }
 .contacts__map script {
   width: 100%;
