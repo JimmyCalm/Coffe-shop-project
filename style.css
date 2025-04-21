@@ -398,6 +398,79 @@ body {
   height: 100%;
 }
 
+.footer {
+  height: 156px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+.footer__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 32px 20px;
+}
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer__logo {
+  width: 305px;
+  height: 39px;
+}
+.footer__copyright {
+  font-size: 14px;
+  color: #555;
+}
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 18px;
+}
+.footer__links {
+  display: flex;
+  gap: 32px;
+}
+.footer__link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #45403D;
+}
+.footer__social {
+  display: flex;
+  gap: 16px;
+}
+.footer__icon {
+  transition: transform 0.3s;
+}
+.footer__icon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: auto;
+    padding: 32px 0;
+  }
+  .footer__content {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .footer__right {
+    align-items: center;
+  }
+  .footer__left {
+    align-items: center;
+    text-align: center;
+  }
+}
 /*
   @media (max-width: 1024px) {
     .reviews__items {
