@@ -2,566 +2,567 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Coffee shop</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Coffee shop</title>
 </head>
 
 <body>
-    <header class="header center">
-        <img class="header__logo" src="img/Logo.svg" alt="logo">
-        <div class="links-box">
-            <p class="links-box__link">О нас</p>
-            <p class="links-box__link">Меню</p>
-            <p class="links-box__link">Отзывы</p>
-            <p class="links-box__link">Контакты</p>
-            <button class="links-box__button">Связаться</button>
+  <header>
+    <div class="header center">
+      <a href="#main"><img class="header__logo" src="img/Logo.svg" alt="logo"></a>
+      <div class="links-box">
+        <a href="#about" class="links-box__link">О нас</a>
+        <a href="#menu" class="links-box__link">Меню</a>
+        <a href="#reviews" class="links-box__link">Отзывы</a>
+        <a href="#contacts" class="links-box__link">Контакты</a>
+        <a href="#contacts" class="links-box__button">Связаться</a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section id="main" class="landpage center">
+      <div class="title">
+        <h1 class="title__title">Добро пожаловать в <span class="title__title_quote">«</span>Зернышко<span
+            class="title__title_quote">»</span></h1>
+        <h4 class="title__subtitle">Ароматный кофе и уютная атмосфера каждый день</h4>
+        <p class="title__text">Мы готовим кофе с душой и верим, что каждая чашка — это маленькое наслаждение,
+          созданное для вас. <br>
+          <br>Мы предлагаем свежие зерна, уникальные авторские рецепты и заботу о природе. Наши бариста рады
+          подарить вам вкус и уют, из-за которых захочется возвращаться снова и снова.
+        </p>
+      </div>
+      <a href="#menu" class="landpage__button">Посмотреть меню</a>
+      <div class="landpage__images">
+        <img class="landpage__imges_table" src="img/table.png" alt="png">
+        <img class="landpage__imges_coffee" src="img/Cup Of Coffee.B15.2k.png" alt="png">
+        <img class="landpage__imges_cookie" src="img/Cookie with Chocolate Cream.B02.2k 1.png" alt="png">
+        <img class="landpage__imges_cinnnamon" src="img/Cinnamon Swirl Pastry.B10.2k 1.png" alt="png">
+        <img class="landpage__imges_beans" src="img/coffee beans.png" alt="png">
+      </div>
+    </section>
+    <section id="about" class="about-us center">
+      <h2 class="title__title">О нас</h2>
+      <div class="info">
+        <article class="info__item">
+          <img src="img/wooden-cafe-interior-yellow-trend-color-bright-c-2024-10-18-08-13-03-utc.jpg" alt=""
+            class="info__image">
+          <div class="description">
+            <h3 class="description__title">История</h3>
+            <p class="description__text">«Зернышко» — кофейня, которая родилась из любви к хорошему кофе и
+              желания
+              создать место уюта для каждого.
+              Открытая в 2020 году, кофейня быстро стала любимой как для ценителей кофе, так и для тех,
+              кто просто ищет спокойное место для отдыха.</p>
+          </div>
+        </article>
+        <article class="info__item">
+          <img src="img/barista-making-classic-cappuccino-2024-10-24-03-02-32-utc 1.jpg" alt="" class="info__image">
+          <div class="description">
+            <h3 class="description__title">Философия</h3>
+            <p class="description__text">Мы верим, что каждая чашка кофе — это особый момент.
+              Стремимся создать теплую дружелюбную атмосферу, где каждый гость чувствует себя как дома.
+              Наши бариста с заботой подходят к каждому заказу, создавая напитки с любовью и вниманием к
+              деталям.</p>
+          </div>
+        </article>
+        <article class="info__item">
+          <img src="img/coffee-beans-2023-11-27-05-33-15-utc 1.jpg" alt="" class="info__image">
+          <div class="description">
+            <h3 class="description__title">Свежее зерно</h3>
+            <p class="description__text">Мы используем только свежие зерна и экспериментируем с
+              оригинальными
+              рецептами, чтобы радовать гостей уникальными вкусами.
+              Наша команда сотрудничает с локальными обжарщиками, поддерживая высокое качество и
+              разнообразие.
+            </p>
+          </div>
+        </article>
+        <article class="info__item">
+          <img src="img/coffee-in-eco-friendly-paper-cup-in-autumn-garden-2023-11-27-05-27-02-utc 1.jpg" alt=""
+            class="info__image">
+          <div class="description">
+            <h3 class="description__title">Забота о природе</h3>
+            <p class="description__text">Мы стараемся уменьшить экологический след, используя биоразлагаемые
+              стаканчики
+              и предлагая скидки для тех, кто приходит со своей чашкой.
+              Мы заботимся не только о клиентах, но и о планете.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="menu" class="menu center">
+      <div class="menu__header"> <!-- Новый контейнер для заголовка и кнопок -->
+        <h2 class="menu__title">Меню</h2>
+        <div class="menu__controls">
+          <button class="menu__control" data-category="coffee">Кофе</button>
+          <button class="menu__control" data-category="desserts">Десерты</button>
+          <button class="menu__control" data-category="snacks">Закуски</button>
         </div>
-    </header>
-    <main class="main">
-        <section class="landpage center">
-            <div class="title">
-                <h1 class="title__title">Добро пожаловать в <span class="title__title_quote">«</span>Зернышко<span
-                        class="title__title_quote">»</span></h1>
-                <h4 class="title__subtitle">Ароматный кофе и уютная атмосфера каждый день</h4>
-                <p class="title__text">Мы готовим кофе с душой и верим, что каждая чашка — это маленькое наслаждение,
-                    созданное для вас. <br>
-                    <br>Мы предлагаем свежие зерна, уникальные авторские рецепты и заботу о природе. Наши бариста рады
-                    подарить вам вкус и уют, из-за которых захочется возвращаться снова и снова.
-                </p>
-            </div>
-            <button class="landpage__button">Посмотреть меню</button>
-            <div class="landpage__images">
-                <img class="landpage__imges_table" src="img/table.png" alt="png">
-                <img class="landpage__imges_coffee" src="img/Cup Of Coffee.B15.2k.png" alt="png">
-                <img class="landpage__imges_cookie" src="img/Cookie with Chocolate Cream.B02.2k 1.png" alt="png">
-                <img class="landpage__imges_cinnnamon" src="img/Cinnamon Swirl Pastry.B10.2k 1.png" alt="png">
-                <img class="landpage__imges_beans" src="img/coffee beans.png" alt="png">
-            </div>
-        </section>
-        <section class="about-us center">
-            <h2 class="title__title">О нас</h2>
-            <div class="info">
-                <article class="info__item">
-                    <img src="img/wooden-cafe-interior-yellow-trend-color-bright-c-2024-10-18-08-13-03-utc.jpg" alt=""
-                        class="info__image">
-                    <div class="description">
-                        <h3 class="description__title">История</h3>
-                        <p class="description__text">«Зернышко» — кофейня, которая родилась из любви к хорошему кофе и
-                            желания
-                            создать место уюта для каждого.
-                            Открытая в 2020 году, кофейня быстро стала любимой как для ценителей кофе, так и для тех,
-                            кто просто ищет спокойное место для отдыха.</p>
-                    </div>
-                </article>
-                <article class="info__item">
-                    <img src="img/barista-making-classic-cappuccino-2024-10-24-03-02-32-utc 1.jpg" alt=""
-                        class="info__image">
-                    <div class="description">
-                        <h3 class="description__title">Философия</h3>
-                        <p class="description__text">Мы верим, что каждая чашка кофе — это особый момент.
-                            Стремимся создать теплую дружелюбную атмосферу, где каждый гость чувствует себя как дома.
-                            Наши бариста с заботой подходят к каждому заказу, создавая напитки с любовью и вниманием к
-                            деталям.</p>
-                    </div>
-                </article>
-                <article class="info__item">
-                    <img src="img/coffee-beans-2023-11-27-05-33-15-utc 1.jpg" alt="" class="info__image">
-                    <div class="description">
-                        <h3 class="description__title">Свежее зерно</h3>
-                        <p class="description__text">Мы используем только свежие зерна и экспериментируем с
-                            оригинальными
-                            рецептами, чтобы радовать гостей уникальными вкусами.
-                            Наша команда сотрудничает с локальными обжарщиками, поддерживая высокое качество и
-                            разнообразие.
-                        </p>
-                    </div>
-                </article>
-                <article class="info__item">
-                    <img src="img/coffee-in-eco-friendly-paper-cup-in-autumn-garden-2023-11-27-05-27-02-utc 1.jpg"
-                        alt="" class="info__image">
-                    <div class="description">
-                        <h3 class="description__title">Забота о природе</h3>
-                        <p class="description__text">Мы стараемся уменьшить экологический след, используя биоразлагаемые
-                            стаканчики
-                            и предлагая скидки для тех, кто приходит со своей чашкой.
-                            Мы заботимся не только о клиентах, но и о планете.</p>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section class="menu center">
-            <div class="menu__header"> <!-- Новый контейнер для заголовка и кнопок -->
-                <h2 class="menu__title">Меню</h2>
-                <div class="menu__controls">
-                    <button class="menu__control" data-category="coffee">Кофе</button>
-                    <button class="menu__control" data-category="desserts">Десерты</button>
-                    <button class="menu__control" data-category="snacks">Закуски</button>
-                </div>
-            </div>
-            <div class="menu__items">
-                <!-- Кофе (по умолчанию видимы) -->
-                <article class="menu__item" data-category="coffee">
-                  <img src="img/coffee1.png" alt="Капучино" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">240₽</h3>
-                    <span class="menu__description">Капучино на миндальном молоке с кокосовым сиропом</span>
-                    <p class="menu__size">350 мл</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="coffee">
-                  <img src="img/coffee2.png" alt="Латте" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">270₽</h3>
-                    <span class="menu__description">Латте на кокосовом молоке с кленовым сиропом</span>
-                    <p class="menu__size">350 мл</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="coffee">
-                  <img src="img/coffee3.png" alt="Раф" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">360₽</h3>
-                    <span class="menu__description">Раф с карамельным сиропом и шоколадом</span>
-                    <p class="menu__size">250 мл</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="coffee">
-                  <img src="img/coffee4.png" alt="Американо" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">160₽</h3>
-                    <span class="menu__description">Классический американо с зарядом бодрости</span>
-                    <p class="menu__size">300 мл</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="coffee">
-                  <img src="img/coffee5.png" alt="Флэт Уайт" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">160₽</h3>
-                    <span class="menu__description">Флэт уайт с насыщенным вкусом эфиопского эспрессо</span>
-                    <p class="menu__size">300 мл</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="coffee">
-                  <img src="img/coffee6.png" alt="Латте с корицей" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">270₽</h3>
-                    <span class="menu__description">Латте на овсяном молоке с добавлением корицы</span>
-                    <p class="menu__size">300 мл</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="coffee">
-                  <img src="img/coffee7.png" alt="Эспрессо" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">180₽</h3>
-                    <span class="menu__description">Двойной эспрессо с высоким зарядом энергии</span>
-                    <p class="menu__size">300 мл</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="coffee">
-                  <img src="img/coffee8.png" alt="Капучино с ореховым сиропом" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">240₽</h3>
-                    <span class="menu__description">Капучино на соевом молоке с ореховым сиропом</span>
-                    <p class="menu__size">300 мл</p>
-                  </div>
-                </article>
-              
-                <!-- Десерты (изначально скрыты) -->
-                <article class="menu__item" data-category="desserts" style="display: none;">
-                  <img src="img/dessert1.png" alt="Синдбон" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">240₽</h3>
-                    <span class="menu__description">Синдбон с ароматной коржей и глазурью</span>
-                    <p class="menu__size">250 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="desserts" style="display: none;">
-                  <img src="img/dessert2.png" alt="Датская слайка" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">270₽</h3>
-                    <span class="menu__description">Воздушная датская слайка с нежным кремом</span>
-                    <p class="menu__size">250 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="desserts" style="display: none;">
-                  <img src="img/dessert3.png" alt="Крем-брала" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">360₽</h3>
-                    <span class="menu__description">Нежный крем-брала с ягодами и карамельной коронкой</span>
-                    <p class="menu__size">150 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="desserts" style="display: none;">
-                  <img src="img/dessert4.png" alt="Улитка" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">270₽</h3>
-                    <span class="menu__description">Улитка с яблочно-лимонным рулетом и изюмом</span>
-                    <p class="menu__size">250 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="desserts" style="display: none;">
-                  <img src="img/dessert5.png" alt="Шоколадно-кофейный торт" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">160₽</h3>
-                    <span class="menu__description">Шоколадно-кофейный торт с глубоким вкусом какао</span>
-                    <p class="menu__size">170 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="desserts" style="display: none;">
-                  <img src="img/dessert6.png" alt="Тортолетика" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">180₽</h3>
-                    <span class="menu__description">Шоколадная тортолетика с кремом и малиной</span>
-                    <p class="menu__size">150 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="desserts" style="display: none;">
-                  <img src="img/dessert7.png" alt="Медовик" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">240₽</h3>
-                    <span class="menu__description">Классический медовик со сливочным кремом</span>
-                    <p class="menu__size">250 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="desserts" style="display: none;">
-                  <img src="img/dessert8.png" alt="Торт с кремом" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">160₽</h3>
-                    <span class="menu__description">Торт с нежным кремом, коржей и шоколадом</span>
-                    <p class="menu__size">300 гр</p>
-                  </div>
-                </article>
-              
-                <!-- Закуски -->
-                <article class="menu__item" data-category="snacks" style="display: none;">
-                  <img src="img/snack1.png" alt="Милараль" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">240₽</h3>
-                    <span class="menu__description">Милараль — крейсичная зондская для перекидка</span>
-                    <p class="menu__size">200 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="snacks" style="display: none;">
-                  <img src="img/snack2.png" alt="Печенье" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">360₽</h3>
-                    <span class="menu__description">Колесом-печеное печенье с мусочными шоколада</span>
-                    <p class="menu__size">250 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="snacks" style="display: none;">
-                  <img src="img/snack3.png" alt="Баранки" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">270₽</h3>
-                    <span class="menu__description">Борожны с легкой солнечо — оптимизме generalisatus к кофе</span>
-                    <p class="menu__size">300 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="snacks" style="display: none;">
-                  <img src="img/snack4.png" alt="Булочка" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">160₽</h3>
-                    <span class="menu__description">Булочное с левком, покрытой нависой сахарной глазирью</span>
-                    <p class="menu__size">150 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="snacks" style="display: none;">
-                  <img src="img/snack5.png" alt="Кешью" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">270₽</h3>
-                    <span class="menu__description">Свежий, хрустящий кешью — полезный перекус</span>
-                    <p class="menu__size">300 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="snacks" style="display: none;">
-                  <img src="img/snack6.png" alt="Печенье с шоколадом" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">160₽</h3>
-                    <span class="menu__description">Мягкое печенье с начинкой из шоколада</span>
-                    <p class="menu__size">150 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="snacks" style="display: none;">
-                  <img src="img/snack7.png" alt="Панкейки" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">180₽</h3>
-                    <span class="menu__description">Нежные панкейки со сладким медом и маслом</span>
-                    <p class="menu__size">300 гр</p>
-                  </div>
-                </article>
-                
-                <article class="menu__item" data-category="snacks" style="display: none;">
-                  <img src="img/snack8.png" alt="Тлещительники" class="menu__img">
-                  <div class="menu__info">
-                    <h3 class="menu__price">240₽</h3>
-                    <span class="menu__description">Сытные тлещительники с сырной начинкой</span>
-                    <p class="menu__size">250 гр</p>
-                  </div>
-                </article>
+      </div>
+      <div class="menu__items">
+        <!-- Кофе (по умолчанию видимы) -->
+        <article class="menu__item" data-category="coffee">
+          <img src="img/coffee1.png" alt="Капучино" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">240₽</h3>
+            <span class="menu__description">Капучино на миндальном молоке с кокосовым сиропом</span>
+            <p class="menu__size">350 мл</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="coffee">
+          <img src="img/coffee2.png" alt="Латте" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">270₽</h3>
+            <span class="menu__description">Латте на кокосовом молоке с кленовым сиропом</span>
+            <p class="menu__size">350 мл</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="coffee">
+          <img src="img/coffee3.png" alt="Раф" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">360₽</h3>
+            <span class="menu__description">Раф с карамельным сиропом и шоколадом</span>
+            <p class="menu__size">250 мл</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="coffee">
+          <img src="img/coffee4.png" alt="Американо" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">160₽</h3>
+            <span class="menu__description">Классический американо с зарядом бодрости</span>
+            <p class="menu__size">300 мл</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="coffee">
+          <img src="img/coffee5.png" alt="Флэт Уайт" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">160₽</h3>
+            <span class="menu__description">Флэт уайт с насыщенным вкусом эфиопского эспрессо</span>
+            <p class="menu__size">300 мл</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="coffee">
+          <img src="img/coffee6.png" alt="Латте с корицей" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">270₽</h3>
+            <span class="menu__description">Латте на овсяном молоке с добавлением корицы</span>
+            <p class="menu__size">300 мл</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="coffee">
+          <img src="img/coffee7.png" alt="Эспрессо" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">180₽</h3>
+            <span class="menu__description">Двойной эспрессо с высоким зарядом энергии</span>
+            <p class="menu__size">300 мл</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="coffee">
+          <img src="img/coffee8.png" alt="Капучино с ореховым сиропом" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">240₽</h3>
+            <span class="menu__description">Капучино на соевом молоке с ореховым сиропом</span>
+            <p class="menu__size">300 мл</p>
+          </div>
+        </article>
+
+        <!-- Десерты (изначально скрыты) -->
+        <article class="menu__item" data-category="desserts" style="display: none;">
+          <img src="img/dessert1.png" alt="Синдбон" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">240₽</h3>
+            <span class="menu__description">Синдбон с ароматной коржей и глазурью</span>
+            <p class="menu__size">250 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="desserts" style="display: none;">
+          <img src="img/dessert2.png" alt="Датская слайка" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">270₽</h3>
+            <span class="menu__description">Воздушная датская слайка с нежным кремом</span>
+            <p class="menu__size">250 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="desserts" style="display: none;">
+          <img src="img/dessert3.png" alt="Крем-брала" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">360₽</h3>
+            <span class="menu__description">Нежный крем-брала с ягодами и карамельной коронкой</span>
+            <p class="menu__size">150 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="desserts" style="display: none;">
+          <img src="img/dessert4.png" alt="Улитка" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">270₽</h3>
+            <span class="menu__description">Улитка с яблочно-лимонным рулетом и изюмом</span>
+            <p class="menu__size">250 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="desserts" style="display: none;">
+          <img src="img/dessert5.png" alt="Шоколадно-кофейный торт" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">160₽</h3>
+            <span class="menu__description">Шоколадно-кофейный торт с глубоким вкусом какао</span>
+            <p class="menu__size">170 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="desserts" style="display: none;">
+          <img src="img/dessert6.png" alt="Тортолетика" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">180₽</h3>
+            <span class="menu__description">Шоколадная тортолетика с кремом и малиной</span>
+            <p class="menu__size">150 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="desserts" style="display: none;">
+          <img src="img/dessert7.png" alt="Медовик" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">240₽</h3>
+            <span class="menu__description">Классический медовик со сливочным кремом</span>
+            <p class="menu__size">250 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="desserts" style="display: none;">
+          <img src="img/dessert8.png" alt="Торт с кремом" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">160₽</h3>
+            <span class="menu__description">Торт с нежным кремом, коржей и шоколадом</span>
+            <p class="menu__size">300 гр</p>
+          </div>
+        </article>
+
+        <!-- Закуски -->
+        <article class="menu__item" data-category="snacks" style="display: none;">
+          <img src="img/snack1.png" alt="Милараль" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">240₽</h3>
+            <span class="menu__description">Милараль — крейсичная зондская для перекидка</span>
+            <p class="menu__size">200 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="snacks" style="display: none;">
+          <img src="img/snack2.png" alt="Печенье" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">360₽</h3>
+            <span class="menu__description">Колесом-печеное печенье с мусочными шоколада</span>
+            <p class="menu__size">250 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="snacks" style="display: none;">
+          <img src="img/snack3.png" alt="Баранки" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">270₽</h3>
+            <span class="menu__description">Борожны с легкой солнечо — оптимизме generalisatus к кофе</span>
+            <p class="menu__size">300 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="snacks" style="display: none;">
+          <img src="img/snack4.png" alt="Булочка" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">160₽</h3>
+            <span class="menu__description">Булочное с левком, покрытой нависой сахарной глазирью</span>
+            <p class="menu__size">150 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="snacks" style="display: none;">
+          <img src="img/snack5.png" alt="Кешью" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">270₽</h3>
+            <span class="menu__description">Свежий, хрустящий кешью — полезный перекус</span>
+            <p class="menu__size">300 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="snacks" style="display: none;">
+          <img src="img/snack6.png" alt="Печенье с шоколадом" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">160₽</h3>
+            <span class="menu__description">Мягкое печенье с начинкой из шоколада</span>
+            <p class="menu__size">150 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="snacks" style="display: none;">
+          <img src="img/snack7.png" alt="Панкейки" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">180₽</h3>
+            <span class="menu__description">Нежные панкейки со сладким медом и маслом</span>
+            <p class="menu__size">300 гр</p>
+          </div>
+        </article>
+
+        <article class="menu__item" data-category="snacks" style="display: none;">
+          <img src="img/snack8.png" alt="Тлещительники" class="menu__img">
+          <div class="menu__info">
+            <h3 class="menu__price">240₽</h3>
+            <span class="menu__description">Сытные тлещительники с сырной начинкой</span>
+            <p class="menu__size">250 гр</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="reviews" class="reviews center">
+      <h2 class="reviews__title">Отзывы</h2>
+      <div class="reviews__items">
+        <!-- Карточка отзыва 1 -->
+        <article class="reviews__item">
+          <div class="reviews__info">
+            <img src="img/irina.png" alt="" class="reviews__photo">
+            <div class="reviews__score">
+              <h3 class="reviews__name">Ирина</h3>
+              <div class="reviews__stars-box">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
               </div>
-        </section>
-        <section class="reviews center">
-            <h2 class="reviews__title">Отзывы</h2>
-            <div class="reviews__items">
-                <!-- Карточка отзыва 1 -->
-                <article class="reviews__item">
-                    <div class="reviews__info">
-                        <img src="img/irina.png" alt="" class="reviews__photo">
-                        <div class="reviews__score">
-                            <h3 class="reviews__name">Ирина</h3>
-                            <div class="reviews__stars-box">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                            </div>
-                        </div>
-                    </div>
-                    <p class="reviews__text">Очень уютные места! Всегда чувствуешь себя желанным гостем, а ваши бариста
-                        не только готовят отличный и вкусный кофе, но и могут подсказать что-то новенькое попробовать.
-                    </p>
-                </article>
-
-                <!-- Карточка отзыва 2 -->
-                <article class="reviews__item">
-                    <div class="reviews__info">
-                        <img src="img/igor.png" alt="" class="reviews__photo">
-                        <div class="reviews__score">
-                            <h3 class="reviews__name">Игорьрь</h3>
-                            <div class="reviews__stars-box">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                            </div>
-                        </div>
-                    </div>
-                    <p class="reviews__text">Я настоящий кофеман, и «Зернышко» удивило меня качеством! Здесь всегда
-                        свежие зерна и интересные решения — каждый раз нахожу новый вкус для себя. Рекомендую всем своим
-                        друзьям.</p>
-                </article>
-
-                <!-- Карточка отзыва 3 -->
-                <article class="reviews__item">
-                    <div class="reviews__info">
-                        <img src="img/alex.png" alt="" class="reviews__photo">
-                        <div class="reviews__score">
-                            <h3 class="reviews__name">Александр</h3>
-                            <div class="reviews__stars-box">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                            </div>
-                        </div>
-                    </div>
-                    <p class="reviews__text">Приятно видеть, что кофейня заботится о природе. Экологичные подходы,
-                        биоразлагаемые стаканчики — такие мелочи, но они действительно важны! Приятно, что здесь думают
-                        о планете.</p>
-                </article>
-
-                <!-- Карточка отзыва 4 -->
-                <article class="reviews__item">
-                    <div class="reviews__info">
-                        <img src="img/elza.png" alt="" class="reviews__photo">
-                        <div class="reviews__score">
-                            <h3 class="reviews__name">Эльза</h3>
-                            <div class="reviews__stars-box">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                            </div>
-                        </div>
-                    </div>
-                    <p class="reviews__text">В «Зернышке» особенная атмосфера: уютные, стильные и спокойные интерьеры.
-                        Идеальное место, чтобы отвлечься от городской суеты, почитать книгу или просто расслабиться за
-                        чашкой кофе.</p>
-                </article>
-
-                <!-- Карточка отзыва 5 -->
-                <article class="reviews__item">
-                    <div class="reviews__info">
-                        <img src="img/andrey.png" alt="" class="reviews__photo">
-                        <div class="reviews__score">
-                            <h3 class="reviews__name">Андрей</h3>
-                            <div class="reviews__stars-box">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                            </div>
-                        </div>
-                    </div>
-                    <p class="reviews__text">Бариста всегда приветливые и открытые к общению. Люблю, когда заходишь, и
-                        тебя встречают с улыбкой и вниманием к деталям. Кажется, что здесь всех знают по имени и каждому
-                        рады.</p>
-                </article>
-
-                <!-- Карточка отзыва 6 -->
-                <article class="reviews__item">
-                    <div class="reviews__info">
-                        <img src="img/kristi.png" alt="" class="reviews__photo">
-                        <div class="reviews__score">
-                            <h3 class="reviews__name">Кристина</h3>
-                            <div class="reviews__stars-box">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                                <img src="img/Star 1.png" alt="" class="reviews__stars">
-                            </div>
-                        </div>
-                    </div>
-                    <p class="reviews__text">Каждая чашка кофе в «Зернышке» словно маленькое произведение искусства.
-                        Ощущается внимание к мелочам — от аромата до оформления напитка. Это то место, куда хочется
-                        возвращаться снова и снова.</p>
-                </article>
             </div>
-        </section>
-        <section class="contacts center">
-            <h2 class="contacts__title">Как нас найти</h2>
-            <div class="contacts__info">
+          </div>
+          <p class="reviews__text">Очень уютные места! Всегда чувствуешь себя желанным гостем, а ваши бариста
+            не только готовят отличный и вкусный кофе, но и могут подсказать что-то новенькое попробовать.
+          </p>
+        </article>
 
-                <!-- Левая колонка -->
-                <div class="contacts__left">
-                    <div class="contacts__contacts">
-                        <h3 class="contacts__subtitle">Контакты</h3>
-                        <ul class="contacts__list">
-                            <li class="contacts__item">
-                                <svg class="contacts__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9.20835 12.4584L7.66669 14.0001C7.34169 14.3251 6.82502 14.3251 6.49169 14.0084C6.40002 13.9167 6.30835 13.8334 6.21669 13.7417C5.35835 12.8751 4.58335 11.9667 3.89169 11.0167C3.20835 10.0667 2.65835 9.11675 2.25835 8.17508C1.86669 7.22508 1.66669 6.31675 1.66669 5.45008C1.66669 4.88341 1.76669 4.34175 1.96669 3.84175C2.16669 3.33341 2.48335 2.86675 2.92502 2.45008C3.45835 1.92508 4.04169 1.66675 4.65835 1.66675C4.89169 1.66675 5.12502 1.71675 5.33335 1.81675C5.55002 1.91675 5.74169 2.06675 5.89169 2.28341L7.82502 5.00841C7.97502 5.21675 8.08335 5.40841 8.15835 5.59175C8.23335 5.76675 8.27502 5.94175 8.27502 6.10008C8.27502 6.30008 8.21669 6.50008 8.10002 6.69175C7.99169 6.88341 7.83335 7.08341 7.63335 7.28341L7.00002 7.94175C6.90835 8.03341 6.86669 8.14175 6.86669 8.27508C6.86669 8.34175 6.87502 8.40008 6.89169 8.46675C6.91669 8.53341 6.94169 8.58341 6.95835 8.63341C7.10835 8.90841 7.36669 9.26675 7.73335 9.70008C8.10835 10.1334 8.50835 10.5751 8.94169 11.0167C9.02502 11.1001 9.11669 11.1834 9.20002 11.2667C9.53335 11.5917 9.54169 12.1251 9.20835 12.4584Z"
-                                        fill="#45403D" />
-                                    <path
-                                        d="M18.3083 15.275C18.3083 15.5083 18.2667 15.75 18.1833 15.9833C18.1583 16.05 18.1333 16.1166 18.1 16.1833C17.9583 16.4833 17.775 16.7666 17.5333 17.0333C17.125 17.4833 16.675 17.8083 16.1667 18.0166C16.1583 18.0166 16.15 18.025 16.1417 18.025C15.65 18.225 15.1167 18.3333 14.5417 18.3333C13.6917 18.3333 12.7833 18.1333 11.825 17.725C10.8667 17.3166 9.90833 16.7666 8.95833 16.075C8.63333 15.8333 8.30833 15.5916 8 15.3333L10.725 12.6083C10.9583 12.7833 11.1667 12.9166 11.3417 13.0083C11.3833 13.025 11.4333 13.05 11.4917 13.075C11.5583 13.1 11.625 13.1083 11.7 13.1083C11.8417 13.1083 11.95 13.0583 12.0417 12.9666L12.675 12.3416C12.8833 12.1333 13.0833 11.975 13.275 11.875C13.4667 11.7583 13.6583 11.7 13.8667 11.7C14.025 11.7 14.1917 11.7333 14.375 11.8083C14.5583 11.8833 14.75 11.9916 14.9583 12.1333L17.7167 14.0916C17.9333 14.2416 18.0833 14.4166 18.175 14.625C18.2583 14.8333 18.3083 15.0416 18.3083 15.275Z"
-                                        fill="#45403D" />
-                                </svg> +7 (999) 999 99-99
-                            </li>
-                            <li class="contacts__item">
-                                <svg class="contacts__icon" width="18" height="16" viewBox="0 0 18 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M13.1667 0.916748H4.83335C2.33335 0.916748 0.666687 2.16675 0.666687 5.08342V10.9167C0.666687 13.8334 2.33335 15.0834 4.83335 15.0834H13.1667C15.6667 15.0834 17.3334 13.8334 17.3334 10.9167V5.08342C17.3334 2.16675 15.6667 0.916748 13.1667 0.916748ZM13.5584 5.99175L10.95 8.07508C10.4 8.51675 9.70002 8.73342 9.00002 8.73342C8.30002 8.73342 7.59169 8.51675 7.05002 8.07508L4.44169 5.99175C4.17502 5.77508 4.13335 5.37508 4.34169 5.10841C4.55835 4.84175 4.95002 4.79175 5.21669 5.00841L7.82502 7.09175C8.45835 7.60008 9.53335 7.60008 10.1667 7.09175L12.775 5.00841C13.0417 4.79175 13.4417 4.83341 13.65 5.10841C13.8667 5.37508 13.825 5.77508 13.5584 5.99175Z"
-                                        fill="#45403D" />
-                                </svg> zernyshko@mail.ru
-                            </li>
-                            <li class="contacts__item">
-                                <svg class="contacts__icon" width="16" height="18" viewBox="0 0 16 18" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M15.1834 6.04158C14.3084 2.19159 10.95 0.458252 8.00002 0.458252C8.00002 0.458252 8.00002 0.458252 7.99168 0.458252C5.05002 0.458252 1.68335 2.18325 0.808352 6.03325C-0.166648 10.3333 2.46669 13.9749 4.85002 16.2666C5.73335 17.1166 6.86668 17.5416 8.00002 17.5416C9.13335 17.5416 10.2667 17.1166 11.1417 16.2666C13.525 13.9749 16.1584 10.3416 15.1834 6.04158ZM8.00002 10.2166C6.55002 10.2166 5.37502 9.04158 5.37502 7.59159C5.37502 6.14158 6.55002 4.96658 8.00002 4.96658C9.45002 4.96658 10.625 6.14158 10.625 7.59159C10.625 9.04158 9.45002 10.2166 8.00002 10.2166Z"
-                                        fill="#45403D" />
-                                </svg> CT16, Коржекова, 5
-                            </li>
-                        </ul>
-                    </div>
-
-                    <form class="contacts__booking-form" id="bookingForm">
-                        <h3 class="contacts__subtitle">Бронирование</h3>
-                        <input type="text" class="contacts__form-input" id="name" placeholder="Ваше имя" required>
-                        <input type="tel" class="contacts__form-input" id="phone" placeholder="Ваш номер телефона"
-                            required>
-                        <input type="text" class="contacts__form-input" id="comment" placeholder="Комментарий">
-                        <button type="submit" class="contacts__form-button">Забронировать</button>
-                    </form>
-                </div>
-
-                <!-- Карта -->
-                <div class="contacts__map">
-                    <script type="text/javascript" charset="utf-8" async
-                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac01347e8bfe795e329f4d2bd29d4c4dae5a58f1096e3ec59025a4174c8f0d719&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=true"></script>
-                </div>
-
+        <!-- Карточка отзыва 2 -->
+        <article class="reviews__item">
+          <div class="reviews__info">
+            <img src="img/igor.png" alt="" class="reviews__photo">
+            <div class="reviews__score">
+              <h3 class="reviews__name">Игорьрь</h3>
+              <div class="reviews__stars-box">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+              </div>
             </div>
-        </section>
+          </div>
+          <p class="reviews__text">Я настоящий кофеман, и «Зернышко» удивило меня качеством! Здесь всегда
+            свежие зерна и интересные решения — каждый раз нахожу новый вкус для себя. Рекомендую всем своим
+            друзьям.</p>
+        </article>
 
-    </main>
-    <footer class="footer center">
-        <div class="footer__content">
-            <div class="footer__left">
-                <img src="img/Logo.svg" alt="Логотип Зернышко" class="footer__logo">
-                <p class="footer__copyright">© 2025 Все права защищены</p>
+        <!-- Карточка отзыва 3 -->
+        <article class="reviews__item">
+          <div class="reviews__info">
+            <img src="img/alex.png" alt="" class="reviews__photo">
+            <div class="reviews__score">
+              <h3 class="reviews__name">Александр</h3>
+              <div class="reviews__stars-box">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+              </div>
             </div>
-            <div class="footer__right">
-                <div class="footer__links">
-                    <a href="#" class="footer__link">О нас</a>
-                    <a href="#" class="footer__link">Меню</a>
-                    <a href="#" class="footer__link">Отзывы</a>
-                    <a href="#" class="footer__link">Контакты</a>
-                </div>
-                <div class="footer__social">
-                    <svg width="14" height="21" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_100_1040)">
-                            <mask id="mask0_100_1040" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="3"
-                                width="14" height="15">
-                                <path d="M14 3.04297H0V17.043H14V3.04297Z" fill="white" />
-                            </mask>
-                            <g mask="url(#mask0_100_1040)">
-                                <path
-                                    d="M6.71273 17.043H7.29567C10.4602 17.043 12.0428 17.043 13.0256 16.0602C14.0084 15.0774 14 13.4954 14 10.3387V9.7473C14 6.59112 14 5.00857 13.0256 4.02577C12.0512 3.04297 10.4602 3.04297 7.29567 3.04297H6.71273C3.54761 3.04297 1.9656 3.04297 0.9828 4.02577C-6.25849e-07 5.00857 0 6.59 0 9.7473V10.3387C0 13.4954 -6.25849e-07 15.0774 0.9828 16.0602C1.9656 17.043 3.54761 17.043 6.71273 17.043Z"
-                                    fill="#45403D" />
-                                <path
-                                    d="M7.51261 13.137C4.35589 13.137 2.44014 10.9468 2.36566 7.30737H3.96446C4.01431 9.98083 5.23061 11.1154 6.16304 11.3466V7.30737H7.69574V9.61401C8.5951 9.51434 9.53592 8.46489 9.85286 7.30737H11.3598C11.1185 8.73146 10.0942 9.78089 9.36958 10.2138C10.0942 10.5638 11.2601 11.4799 11.7098 13.137H10.0528C9.70279 12.0293 8.84486 11.1714 7.69574 11.0549V13.137H7.51261Z"
-                                    fill="white" />
-                            </g>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_100_1040">
-                                <rect width="14" height="14" fill="white" transform="translate(0 3.04297)" />
-                            </clipPath>
-                        </defs>
-                    </svg>
+          </div>
+          <p class="reviews__text">Приятно видеть, что кофейня заботится о природе. Экологичные подходы,
+            биоразлагаемые стаканчики — такие мелочи, но они действительно важны! Приятно, что здесь думают
+            о планете.</p>
+        </article>
 
-
-                    <svg width="14" height="21" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M7.00224 3C4.13539 3 3.29693 3.00303 3.13396 3.0169C2.54563 3.06707 2.17954 3.16211 1.78069 3.36583C1.47333 3.52242 1.23092 3.70392 0.991679 3.95836C0.55598 4.42236 0.291919 4.99321 0.196326 5.67178C0.149854 6.0012 0.136332 6.06838 0.133586 7.75104C0.132532 8.31192 0.133586 9.05009 0.133586 10.0402C0.133586 12.979 0.136752 13.8383 0.150487 14.0052C0.198018 14.5925 0.287797 14.962 0.477922 15.3662C0.841273 16.1399 1.53522 16.7207 2.35276 16.9375C2.63583 17.0122 2.94848 17.0534 3.34985 17.0729C3.51991 17.0805 5.25321 17.0859 6.98756 17.0859C8.72192 17.0859 10.4563 17.0838 10.6221 17.0751C11.0869 17.0527 11.3567 17.0155 11.6551 16.9364C12.4779 16.7186 13.1592 16.1464 13.5299 15.3619C13.7164 14.9674 13.8109 14.5838 13.8537 14.0272C13.863 13.9058 13.8669 11.9708 13.8669 10.0384C13.8669 8.1056 13.8627 6.17415 13.8534 6.05278C13.8101 5.48713 13.7155 5.10678 13.5231 4.70475C13.3652 4.37566 13.1898 4.12989 12.9353 3.8786C12.481 3.43345 11.9254 3.16254 11.2634 3.06458C10.9426 3.01701 10.8787 3.00292 9.23726 3H7.00224Z"
-                            fill="#45403D" />
-                        <path
-                            d="M4.89261 4.74032L4.89263 4.74032C5.43942 4.71482 5.61535 4.7086 7.00121 4.70859L4.89261 4.74032ZM4.89261 4.74032C4.33935 4.76629 3.95719 4.85642 3.62097 4.99044L4.89261 4.74032ZM1.8269 7.8796L1.8269 7.87957C1.85177 7.31341 1.9397 6.92232 2.07056 6.57823C2.20585 6.22246 2.3874 5.91851 2.6818 5.61699L1.8269 7.8796ZM1.8269 7.8796C1.80244 8.43996 1.79606 8.6201 1.79606 10.042C1.79606 11.4638 1.80223 11.6433 1.827 12.2037L1.82701 12.2038M1.8269 7.8796L1.82701 12.2038M1.82701 12.2038C1.85242 12.7701 1.94023 13.161 2.07063 13.5049L2.1641 13.4695M1.82701 12.2038L2.1641 13.4695M2.1641 13.4695L2.07063 13.5049C2.20562 13.8609 2.38719 14.1649 2.6815 14.4664M2.1641 13.4695L2.6815 14.4664M3.65731 15.0006C3.9822 15.13 4.35337 15.2182 4.89687 15.2437M3.65731 15.0006C3.32168 14.8669 3.03679 14.6877 2.75307 14.3965C2.46913 14.1057 2.29467 13.8137 2.16414 13.4695L4.89687 15.2437M3.65731 15.0006L3.6203 15.0935C3.62031 15.0935 3.62031 15.0935 3.62031 15.0935M3.65731 15.0006L3.62031 15.0935M4.89687 15.2437C5.44155 15.2691 5.61548 15.2753 7.00216 15.2753M4.89687 15.2437L7.00216 15.2753M2.6815 14.4664C2.97558 14.7681 3.27246 14.9549 3.62031 15.0935M2.6815 14.4664L10.3838 4.99041C10.7323 5.12886 11.0283 5.31528 11.3227 5.61698M3.62031 15.0935C3.95674 15.2275 4.339 15.3176 4.89218 15.3436L4.89221 15.3436C5.4392 15.3691 5.61495 15.3753 7.00216 15.3753C8.38959 15.3753 8.56491 15.3691 9.1119 15.3436L9.11193 15.3436C9.66521 15.3176 10.0478 15.2275 10.3842 15.0935M10.3842 15.0935C10.3842 15.0935 10.3842 15.0935 10.3842 15.0935L10.3472 15.0006L10.3842 15.0935ZM10.3842 15.0935C10.7322 14.9549 11.0287 14.7681 11.3227 14.4664M11.3227 14.4664C11.6171 14.1649 11.7987 13.8609 11.934 13.5051L11.9341 13.5049C12.0638 13.161 12.1517 12.7701 12.1776 12.204L12.1776 12.2038C12.2022 11.6434 12.2086 11.4638 12.2086 10.042C12.2086 8.6201 12.2022 8.44006 12.1776 7.87969L12.1776 7.87949C12.1517 7.3132 12.0638 6.92239 11.9341 6.57859L11.934 6.57835C11.7987 6.22246 11.6171 5.9185 11.3227 5.61698M11.3227 14.4664C11.3227 14.4664 11.3227 14.4664 11.3228 14.4663L11.2512 14.3965M11.3227 14.4664L11.2512 14.3965M11.3227 5.61698L11.2512 5.68682M11.3227 5.61698C11.3227 5.61697 11.3227 5.61696 11.3227 5.61695L11.2512 5.68682M11.2512 5.68682C11.5352 5.9777 11.7097 6.26968 11.8405 6.61389L7.0028 4.70859V4.80859C8.38855 4.8086 8.56203 4.81482 9.1065 4.84021C9.65011 4.86572 10.0214 4.95393 10.3469 5.08335C10.6831 5.2169 10.9671 5.39571 11.2512 5.68682ZM11.2512 14.3965C11.5352 14.1057 11.7097 13.8137 11.8405 13.4696M11.2512 14.3965L11.8405 13.4696M11.8405 13.4696C11.966 13.1367 12.0522 12.7563 12.0777 12.1994L11.8405 13.4696ZM6.44436 5.85185L6.44436 5.85052C5.58068 5.85196 5.39616 5.85878 4.94413 5.87971C4.4575 5.90262 4.19813 5.98525 4.02837 6.05312L4.0283 6.05314C3.80292 6.14306 3.64448 6.24863 3.47559 6.42173L3.47559 6.42173L6.44436 5.85185ZM6.44436 5.85185L6.54488 5.85169C6.63373 5.85155 6.72924 5.85159 6.83242 5.85164C6.88701 5.85167 6.94376 5.85169 7.0028 5.85169C8.36577 5.85169 8.52551 5.85671 9.0615 5.88167C9.54804 5.90448 9.80735 5.98729 9.97727 6.05491M6.44436 5.85185L9.97727 6.05491M9.97727 6.05491C10.2025 6.14459 10.3606 6.25011 10.5295 6.42323L10.5295 6.42325C10.6984 6.59637 10.8017 6.75905 10.8897 6.99076L9.97727 6.05491ZM7.00216 15.2753C8.38906 15.2753 8.56257 15.2691 9.10724 15.2437L7.00216 15.2753ZM7.00121 4.80859C5.61588 4.8086 5.44176 4.81482 4.89729 4.84021L7.00121 4.80859ZM3.62092 4.99046C3.27293 5.12896 2.97604 5.31533 2.68184 5.61695L3.62092 4.99046ZM2.94595 7.92985C2.96823 7.43035 3.04921 7.16387 3.1154 6.98917L11.1888 10.0408C11.1888 11.4374 11.1835 11.6031 11.159 12.1548L11.0591 12.1504C11.0591 12.1504 11.0591 12.1504 11.0591 12.1504C11.0368 12.6499 10.9559 12.9163 10.8897 13.0908L10.8897 13.0908C10.8019 13.3224 10.6985 13.4845 10.5295 13.6576L10.5295 13.6576C10.3605 13.8308 10.2026 13.9363 9.97728 14.0259L9.97709 14.026C9.80758 14.0939 9.54813 14.1765 9.0615 14.1993C8.52558 14.2243 8.36571 14.2297 7.0028 14.2297C5.63983 14.2297 5.48003 14.2243 4.94415 14.1993C4.45761 14.1763 4.19828 14.0935 4.02823 14.0258C3.8029 13.9361 3.64448 13.8306 3.47559 13.6575C3.30664 13.4843 3.20337 13.3221 3.11538 13.0903C3.0492 12.9159 2.96813 12.6494 2.94595 12.1499C2.92158 11.6005 2.91668 11.4366 2.91668 10.0394C2.91668 8.64232 2.92158 8.47923 2.94595 7.92985ZM7.0028 7.2544C5.49709 7.2544 4.2805 8.50485 4.2805 10.042C4.2805 11.5791 5.49712 12.829 7.0028 12.829C8.5085 12.829 9.72468 11.5791 9.72468 10.042C9.72468 8.50487 8.50853 7.2544 7.0028 7.2544ZM7.0028 8.3975C7.88526 8.3975 8.60491 9.13137 8.60491 10.042C8.60491 10.9524 7.88526 11.6864 7.0028 11.6864C6.12024 11.6864 5.4007 10.9524 5.4007 10.042C5.4007 9.13137 6.12024 8.3975 7.0028 8.3975Z"
-                            fill="white" stroke="white" stroke-width="0.2" />
-                    </svg>
-
-
-
-                </div>
+        <!-- Карточка отзыва 4 -->
+        <article class="reviews__item">
+          <div class="reviews__info">
+            <img src="img/elza.png" alt="" class="reviews__photo">
+            <div class="reviews__score">
+              <h3 class="reviews__name">Эльза</h3>
+              <div class="reviews__stars-box">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+              </div>
             </div>
+          </div>
+          <p class="reviews__text">В «Зернышке» особенная атмосфера: уютные, стильные и спокойные интерьеры.
+            Идеальное место, чтобы отвлечься от городской суеты, почитать книгу или просто расслабиться за
+            чашкой кофе.</p>
+        </article>
+
+        <!-- Карточка отзыва 5 -->
+        <article class="reviews__item">
+          <div class="reviews__info">
+            <img src="img/andrey.png" alt="" class="reviews__photo">
+            <div class="reviews__score">
+              <h3 class="reviews__name">Андрей</h3>
+              <div class="reviews__stars-box">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+              </div>
+            </div>
+          </div>
+          <p class="reviews__text">Бариста всегда приветливые и открытые к общению. Люблю, когда заходишь, и
+            тебя встречают с улыбкой и вниманием к деталям. Кажется, что здесь всех знают по имени и каждому
+            рады.</p>
+        </article>
+
+        <!-- Карточка отзыва 6 -->
+        <article class="reviews__item">
+          <div class="reviews__info">
+            <img src="img/kristi.png" alt="" class="reviews__photo">
+            <div class="reviews__score">
+              <h3 class="reviews__name">Кристина</h3>
+              <div class="reviews__stars-box">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+                <img src="img/Star 1.png" alt="" class="reviews__stars">
+              </div>
+            </div>
+          </div>
+          <p class="reviews__text">Каждая чашка кофе в «Зернышке» словно маленькое произведение искусства.
+            Ощущается внимание к мелочам — от аромата до оформления напитка. Это то место, куда хочется
+            возвращаться снова и снова.</p>
+        </article>
+      </div>
+    </section>
+    <section id="contacts" class="contacts center">
+      <h2 class="contacts__title">Как нас найти</h2>
+      <div class="contacts__info">
+
+        <!-- Левая колонка -->
+        <div class="contacts__left">
+          <div class="contacts__contacts">
+            <h3 class="contacts__subtitle">Контакты</h3>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <svg class="contacts__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9.20835 12.4584L7.66669 14.0001C7.34169 14.3251 6.82502 14.3251 6.49169 14.0084C6.40002 13.9167 6.30835 13.8334 6.21669 13.7417C5.35835 12.8751 4.58335 11.9667 3.89169 11.0167C3.20835 10.0667 2.65835 9.11675 2.25835 8.17508C1.86669 7.22508 1.66669 6.31675 1.66669 5.45008C1.66669 4.88341 1.76669 4.34175 1.96669 3.84175C2.16669 3.33341 2.48335 2.86675 2.92502 2.45008C3.45835 1.92508 4.04169 1.66675 4.65835 1.66675C4.89169 1.66675 5.12502 1.71675 5.33335 1.81675C5.55002 1.91675 5.74169 2.06675 5.89169 2.28341L7.82502 5.00841C7.97502 5.21675 8.08335 5.40841 8.15835 5.59175C8.23335 5.76675 8.27502 5.94175 8.27502 6.10008C8.27502 6.30008 8.21669 6.50008 8.10002 6.69175C7.99169 6.88341 7.83335 7.08341 7.63335 7.28341L7.00002 7.94175C6.90835 8.03341 6.86669 8.14175 6.86669 8.27508C6.86669 8.34175 6.87502 8.40008 6.89169 8.46675C6.91669 8.53341 6.94169 8.58341 6.95835 8.63341C7.10835 8.90841 7.36669 9.26675 7.73335 9.70008C8.10835 10.1334 8.50835 10.5751 8.94169 11.0167C9.02502 11.1001 9.11669 11.1834 9.20002 11.2667C9.53335 11.5917 9.54169 12.1251 9.20835 12.4584Z"
+                    fill="#45403D" />
+                  <path
+                    d="M18.3083 15.275C18.3083 15.5083 18.2667 15.75 18.1833 15.9833C18.1583 16.05 18.1333 16.1166 18.1 16.1833C17.9583 16.4833 17.775 16.7666 17.5333 17.0333C17.125 17.4833 16.675 17.8083 16.1667 18.0166C16.1583 18.0166 16.15 18.025 16.1417 18.025C15.65 18.225 15.1167 18.3333 14.5417 18.3333C13.6917 18.3333 12.7833 18.1333 11.825 17.725C10.8667 17.3166 9.90833 16.7666 8.95833 16.075C8.63333 15.8333 8.30833 15.5916 8 15.3333L10.725 12.6083C10.9583 12.7833 11.1667 12.9166 11.3417 13.0083C11.3833 13.025 11.4333 13.05 11.4917 13.075C11.5583 13.1 11.625 13.1083 11.7 13.1083C11.8417 13.1083 11.95 13.0583 12.0417 12.9666L12.675 12.3416C12.8833 12.1333 13.0833 11.975 13.275 11.875C13.4667 11.7583 13.6583 11.7 13.8667 11.7C14.025 11.7 14.1917 11.7333 14.375 11.8083C14.5583 11.8833 14.75 11.9916 14.9583 12.1333L17.7167 14.0916C17.9333 14.2416 18.0833 14.4166 18.175 14.625C18.2583 14.8333 18.3083 15.0416 18.3083 15.275Z"
+                    fill="#45403D" />
+                </svg> +7 (999) 999 99-99
+              </li>
+              <li class="contacts__item">
+                <svg class="contacts__icon" width="18" height="16" viewBox="0 0 18 16" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.1667 0.916748H4.83335C2.33335 0.916748 0.666687 2.16675 0.666687 5.08342V10.9167C0.666687 13.8334 2.33335 15.0834 4.83335 15.0834H13.1667C15.6667 15.0834 17.3334 13.8334 17.3334 10.9167V5.08342C17.3334 2.16675 15.6667 0.916748 13.1667 0.916748ZM13.5584 5.99175L10.95 8.07508C10.4 8.51675 9.70002 8.73342 9.00002 8.73342C8.30002 8.73342 7.59169 8.51675 7.05002 8.07508L4.44169 5.99175C4.17502 5.77508 4.13335 5.37508 4.34169 5.10841C4.55835 4.84175 4.95002 4.79175 5.21669 5.00841L7.82502 7.09175C8.45835 7.60008 9.53335 7.60008 10.1667 7.09175L12.775 5.00841C13.0417 4.79175 13.4417 4.83341 13.65 5.10841C13.8667 5.37508 13.825 5.77508 13.5584 5.99175Z"
+                    fill="#45403D" />
+                </svg> zernyshko@mail.ru
+              </li>
+              <li class="contacts__item">
+                <svg class="contacts__icon" width="16" height="18" viewBox="0 0 16 18" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15.1834 6.04158C14.3084 2.19159 10.95 0.458252 8.00002 0.458252C8.00002 0.458252 8.00002 0.458252 7.99168 0.458252C5.05002 0.458252 1.68335 2.18325 0.808352 6.03325C-0.166648 10.3333 2.46669 13.9749 4.85002 16.2666C5.73335 17.1166 6.86668 17.5416 8.00002 17.5416C9.13335 17.5416 10.2667 17.1166 11.1417 16.2666C13.525 13.9749 16.1584 10.3416 15.1834 6.04158ZM8.00002 10.2166C6.55002 10.2166 5.37502 9.04158 5.37502 7.59159C5.37502 6.14158 6.55002 4.96658 8.00002 4.96658C9.45002 4.96658 10.625 6.14158 10.625 7.59159C10.625 9.04158 9.45002 10.2166 8.00002 10.2166Z"
+                    fill="#45403D" />
+                </svg> CT16, Коржекова, 5
+              </li>
+            </ul>
+          </div>
+
+          <form class="contacts__booking-form" id="bookingForm">
+            <h3 class="contacts__subtitle">Бронирование</h3>
+            <input type="text" class="contacts__form-input" id="name" placeholder="Ваше имя" required>
+            <input type="tel" class="contacts__form-input" id="phone" placeholder="Ваш номер телефона" required>
+            <input type="text" class="contacts__form-input" id="comment" placeholder="Комментарий">
+            <button type="submit" class="contacts__form-button">Забронировать</button>
+          </form>
         </div>
-    </footer>
-    <script src="form.js"></script>
-    <script src="menu.js"></script>
+
+        <!-- Карта -->
+        <div class="contacts__map">
+          <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac01347e8bfe795e329f4d2bd29d4c4dae5a58f1096e3ec59025a4174c8f0d719&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer center">
+    <div class="footer__content">
+      <div class="footer__left">
+        <a href="#main"><img src="img/Logo.svg" alt="Логотип Зернышко" class="footer__logo"></a>
+        <p class="footer__copyright">© 2025 Все права защищены</p>
+      </div>
+      <div class="footer__right">
+        <div class="footer__links">
+          <a href="#about" class="footer__link">О нас</a>
+          <a href="#menu" class="footer__link">Меню</a>
+          <a href="#reviews" class="footer__link">Отзывы</a>
+          <a href="#contacts" class="footer__link">Контакты</a>
+        </div>
+        <div class="footer__social">
+          <svg width="14" height="21" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_100_1040)">
+              <mask id="mask0_100_1040" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="3" width="14"
+                height="15">
+                <path d="M14 3.04297H0V17.043H14V3.04297Z" fill="white" />
+              </mask>
+              <g mask="url(#mask0_100_1040)">
+                <path
+                  d="M6.71273 17.043H7.29567C10.4602 17.043 12.0428 17.043 13.0256 16.0602C14.0084 15.0774 14 13.4954 14 10.3387V9.7473C14 6.59112 14 5.00857 13.0256 4.02577C12.0512 3.04297 10.4602 3.04297 7.29567 3.04297H6.71273C3.54761 3.04297 1.9656 3.04297 0.9828 4.02577C-6.25849e-07 5.00857 0 6.59 0 9.7473V10.3387C0 13.4954 -6.25849e-07 15.0774 0.9828 16.0602C1.9656 17.043 3.54761 17.043 6.71273 17.043Z"
+                  fill="#45403D" />
+                <path
+                  d="M7.51261 13.137C4.35589 13.137 2.44014 10.9468 2.36566 7.30737H3.96446C4.01431 9.98083 5.23061 11.1154 6.16304 11.3466V7.30737H7.69574V9.61401C8.5951 9.51434 9.53592 8.46489 9.85286 7.30737H11.3598C11.1185 8.73146 10.0942 9.78089 9.36958 10.2138C10.0942 10.5638 11.2601 11.4799 11.7098 13.137H10.0528C9.70279 12.0293 8.84486 11.1714 7.69574 11.0549V13.137H7.51261Z"
+                  fill="white" />
+              </g>
+            </g>
+            <defs>
+              <clipPath id="clip0_100_1040">
+                <rect width="14" height="14" fill="white" transform="translate(0 3.04297)" />
+              </clipPath>
+            </defs>
+          </svg>
+
+
+          <svg width="14" height="21" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M7.00224 3C4.13539 3 3.29693 3.00303 3.13396 3.0169C2.54563 3.06707 2.17954 3.16211 1.78069 3.36583C1.47333 3.52242 1.23092 3.70392 0.991679 3.95836C0.55598 4.42236 0.291919 4.99321 0.196326 5.67178C0.149854 6.0012 0.136332 6.06838 0.133586 7.75104C0.132532 8.31192 0.133586 9.05009 0.133586 10.0402C0.133586 12.979 0.136752 13.8383 0.150487 14.0052C0.198018 14.5925 0.287797 14.962 0.477922 15.3662C0.841273 16.1399 1.53522 16.7207 2.35276 16.9375C2.63583 17.0122 2.94848 17.0534 3.34985 17.0729C3.51991 17.0805 5.25321 17.0859 6.98756 17.0859C8.72192 17.0859 10.4563 17.0838 10.6221 17.0751C11.0869 17.0527 11.3567 17.0155 11.6551 16.9364C12.4779 16.7186 13.1592 16.1464 13.5299 15.3619C13.7164 14.9674 13.8109 14.5838 13.8537 14.0272C13.863 13.9058 13.8669 11.9708 13.8669 10.0384C13.8669 8.1056 13.8627 6.17415 13.8534 6.05278C13.8101 5.48713 13.7155 5.10678 13.5231 4.70475C13.3652 4.37566 13.1898 4.12989 12.9353 3.8786C12.481 3.43345 11.9254 3.16254 11.2634 3.06458C10.9426 3.01701 10.8787 3.00292 9.23726 3H7.00224Z"
+              fill="#45403D" />
+            <path
+              d="M4.89261 4.74032L4.89263 4.74032C5.43942 4.71482 5.61535 4.7086 7.00121 4.70859L4.89261 4.74032ZM4.89261 4.74032C4.33935 4.76629 3.95719 4.85642 3.62097 4.99044L4.89261 4.74032ZM1.8269 7.8796L1.8269 7.87957C1.85177 7.31341 1.9397 6.92232 2.07056 6.57823C2.20585 6.22246 2.3874 5.91851 2.6818 5.61699L1.8269 7.8796ZM1.8269 7.8796C1.80244 8.43996 1.79606 8.6201 1.79606 10.042C1.79606 11.4638 1.80223 11.6433 1.827 12.2037L1.82701 12.2038M1.8269 7.8796L1.82701 12.2038M1.82701 12.2038C1.85242 12.7701 1.94023 13.161 2.07063 13.5049L2.1641 13.4695M1.82701 12.2038L2.1641 13.4695M2.1641 13.4695L2.07063 13.5049C2.20562 13.8609 2.38719 14.1649 2.6815 14.4664M2.1641 13.4695L2.6815 14.4664M3.65731 15.0006C3.9822 15.13 4.35337 15.2182 4.89687 15.2437M3.65731 15.0006C3.32168 14.8669 3.03679 14.6877 2.75307 14.3965C2.46913 14.1057 2.29467 13.8137 2.16414 13.4695L4.89687 15.2437M3.65731 15.0006L3.6203 15.0935C3.62031 15.0935 3.62031 15.0935 3.62031 15.0935M3.65731 15.0006L3.62031 15.0935M4.89687 15.2437C5.44155 15.2691 5.61548 15.2753 7.00216 15.2753M4.89687 15.2437L7.00216 15.2753M2.6815 14.4664C2.97558 14.7681 3.27246 14.9549 3.62031 15.0935M2.6815 14.4664L10.3838 4.99041C10.7323 5.12886 11.0283 5.31528 11.3227 5.61698M3.62031 15.0935C3.95674 15.2275 4.339 15.3176 4.89218 15.3436L4.89221 15.3436C5.4392 15.3691 5.61495 15.3753 7.00216 15.3753C8.38959 15.3753 8.56491 15.3691 9.1119 15.3436L9.11193 15.3436C9.66521 15.3176 10.0478 15.2275 10.3842 15.0935M10.3842 15.0935C10.3842 15.0935 10.3842 15.0935 10.3842 15.0935L10.3472 15.0006L10.3842 15.0935ZM10.3842 15.0935C10.7322 14.9549 11.0287 14.7681 11.3227 14.4664M11.3227 14.4664C11.6171 14.1649 11.7987 13.8609 11.934 13.5051L11.9341 13.5049C12.0638 13.161 12.1517 12.7701 12.1776 12.204L12.1776 12.2038C12.2022 11.6434 12.2086 11.4638 12.2086 10.042C12.2086 8.6201 12.2022 8.44006 12.1776 7.87969L12.1776 7.87949C12.1517 7.3132 12.0638 6.92239 11.9341 6.57859L11.934 6.57835C11.7987 6.22246 11.6171 5.9185 11.3227 5.61698M11.3227 14.4664C11.3227 14.4664 11.3227 14.4664 11.3228 14.4663L11.2512 14.3965M11.3227 14.4664L11.2512 14.3965M11.3227 5.61698L11.2512 5.68682M11.3227 5.61698C11.3227 5.61697 11.3227 5.61696 11.3227 5.61695L11.2512 5.68682M11.2512 5.68682C11.5352 5.9777 11.7097 6.26968 11.8405 6.61389L7.0028 4.70859V4.80859C8.38855 4.8086 8.56203 4.81482 9.1065 4.84021C9.65011 4.86572 10.0214 4.95393 10.3469 5.08335C10.6831 5.2169 10.9671 5.39571 11.2512 5.68682ZM11.2512 14.3965C11.5352 14.1057 11.7097 13.8137 11.8405 13.4696M11.2512 14.3965L11.8405 13.4696M11.8405 13.4696C11.966 13.1367 12.0522 12.7563 12.0777 12.1994L11.8405 13.4696ZM6.44436 5.85185L6.44436 5.85052C5.58068 5.85196 5.39616 5.85878 4.94413 5.87971C4.4575 5.90262 4.19813 5.98525 4.02837 6.05312L4.0283 6.05314C3.80292 6.14306 3.64448 6.24863 3.47559 6.42173L3.47559 6.42173L6.44436 5.85185ZM6.44436 5.85185L6.54488 5.85169C6.63373 5.85155 6.72924 5.85159 6.83242 5.85164C6.88701 5.85167 6.94376 5.85169 7.0028 5.85169C8.36577 5.85169 8.52551 5.85671 9.0615 5.88167C9.54804 5.90448 9.80735 5.98729 9.97727 6.05491M6.44436 5.85185L9.97727 6.05491M9.97727 6.05491C10.2025 6.14459 10.3606 6.25011 10.5295 6.42323L10.5295 6.42325C10.6984 6.59637 10.8017 6.75905 10.8897 6.99076L9.97727 6.05491ZM7.00216 15.2753C8.38906 15.2753 8.56257 15.2691 9.10724 15.2437L7.00216 15.2753ZM7.00121 4.80859C5.61588 4.8086 5.44176 4.81482 4.89729 4.84021L7.00121 4.80859ZM3.62092 4.99046C3.27293 5.12896 2.97604 5.31533 2.68184 5.61695L3.62092 4.99046ZM2.94595 7.92985C2.96823 7.43035 3.04921 7.16387 3.1154 6.98917L11.1888 10.0408C11.1888 11.4374 11.1835 11.6031 11.159 12.1548L11.0591 12.1504C11.0591 12.1504 11.0591 12.1504 11.0591 12.1504C11.0368 12.6499 10.9559 12.9163 10.8897 13.0908L10.8897 13.0908C10.8019 13.3224 10.6985 13.4845 10.5295 13.6576L10.5295 13.6576C10.3605 13.8308 10.2026 13.9363 9.97728 14.0259L9.97709 14.026C9.80758 14.0939 9.54813 14.1765 9.0615 14.1993C8.52558 14.2243 8.36571 14.2297 7.0028 14.2297C5.63983 14.2297 5.48003 14.2243 4.94415 14.1993C4.45761 14.1763 4.19828 14.0935 4.02823 14.0258C3.8029 13.9361 3.64448 13.8306 3.47559 13.6575C3.30664 13.4843 3.20337 13.3221 3.11538 13.0903C3.0492 12.9159 2.96813 12.6494 2.94595 12.1499C2.92158 11.6005 2.91668 11.4366 2.91668 10.0394C2.91668 8.64232 2.92158 8.47923 2.94595 7.92985ZM7.0028 7.2544C5.49709 7.2544 4.2805 8.50485 4.2805 10.042C4.2805 11.5791 5.49712 12.829 7.0028 12.829C8.5085 12.829 9.72468 11.5791 9.72468 10.042C9.72468 8.50487 8.50853 7.2544 7.0028 7.2544ZM7.0028 8.3975C7.88526 8.3975 8.60491 9.13137 8.60491 10.042C8.60491 10.9524 7.88526 11.6864 7.0028 11.6864C6.12024 11.6864 5.4007 10.9524 5.4007 10.042C5.4007 9.13137 6.12024 8.3975 7.0028 8.3975Z"
+              fill="white" stroke="white" stroke-width="0.2" />
+          </svg>
+
+
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="form.js"></script>
+  <script src="menu.js"></script>
+  <script src="scroll.js"></script>
 </body>
 
 </html>
