@@ -56,6 +56,11 @@ body {
   color: #F6F5F4;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+.links-box__button.active {
+  background-color: #A26539;
+  color: #F6F5F4;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
 
 .main {
   background-color: #F6F5F4;
@@ -82,6 +87,11 @@ body {
   margin-top: 40px;
 }
 .landpage__button:hover {
+  background-color: #A26539;
+  color: #F6F5F4;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.landpage__button.active {
   background-color: #A26539;
   color: #F6F5F4;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -223,6 +233,11 @@ body {
   color: #F6F5F4;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+.menu__control.active {
+  background-color: #A26539;
+  color: #F6F5F4;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
 .menu__items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -235,7 +250,14 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 1;
   filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
+}
+.menu .menu__item.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  display: none;
 }
 .menu__img {
   width: 100%;
@@ -393,6 +415,11 @@ body {
   width: 339px;
 }
 .contacts__form-button:hover {
+  background-color: #A26539;
+  color: #F6F5F4;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.contacts__form-button.active {
   background-color: #A26539;
   color: #F6F5F4;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
