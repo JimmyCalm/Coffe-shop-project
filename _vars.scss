@@ -33,21 +33,26 @@ $line-height-xxlarge: 78px;
     width: 169px;
     height: 52px;
     border-radius: 24px;
-    background-color: $background-color;
+    background-color: transparent;
     color: $secondary-color;
     font-size: $font-size-very-small;
     font-weight: $font-weight-semibold;
     cursor: pointer;
     border: 1px solid $secondary-color;
     transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-    &:hover{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
         background-color: $secondary-color;
         color: $background-color;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     }
+
     &.active {
         background-color: $secondary-color;
         color: $background-color;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-      }
+    }
 }
