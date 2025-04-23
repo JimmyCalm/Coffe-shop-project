@@ -582,17 +582,4 @@ body {
     align-items: center;
     text-align: center;
   }
-}
-/*
-  @media (max-width: 1024px) {
-    .reviews__items {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .reviews__items {
-      grid-template-columns: 1fr;
-    }
-  }
-*//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -31,7 +31,6 @@ header.shadow {
 .center {
   max-width: 1200px;
   margin: 0 auto;
-  //padding: 0 20px; сохраню для мобилок
 }
 
 body {
@@ -276,7 +275,6 @@ body {
     filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
     cursor: pointer;
 
-    // При наведении на карточку — увеличиваем картинку + тень
     &:hover .menu__img {
       transform: scale(1.05);
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
@@ -490,8 +488,8 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; // Изменено на flex-start
-    padding: 32px 20px; // Добавлены вертикальные отступы
+    align-items: flex-start; 
+    padding: 32px 20px; 
   }
 
   &__left {
@@ -531,7 +529,7 @@ body {
 
   &__social {
     display: flex;
-    gap: 16px; // Расстояние между иконками
+    gap: 16px; 
   }
 
   &__icon {
@@ -565,17 +563,3 @@ body {
     }
   }
 }
-
-/*
-  @media (max-width: 1024px) {
-    .reviews__items {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .reviews__items {
-      grid-template-columns: 1fr;
-    }
-  }
-*/
